@@ -1,0 +1,12 @@
+/* Defining the Body Color */
+body {
+  background: #12343b !important;
+}
+
+.header-text {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  padding: 0 25px;
+  margin-bottom: 35px;
+}
