@@ -2,16 +2,11 @@
 import React from 'react';
 
 // CSS
-import './App.css';
+import './App.scss';
 
-// Testing will be moved to different component
-const emojilib = require('emojilib');
+import EmojiTranslator from './components/emojiTranslator';
 
 const App = () => {
-  // Testing will be moved to different component
-  const allEmojis = emojilib.lib;
-
-  console.log(allEmojis);
   return (
     <div className="App">
       <header className="header-text">
@@ -25,6 +20,7 @@ const App = () => {
           </span>
         </p>
       </header>
+      <EmojiTranslator></EmojiTranslator>
     </div>
   );
 };
