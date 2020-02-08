@@ -4,6 +4,9 @@ import React from 'react';
 // CSS
 import './App.scss';
 
+// Constants
+// import { headerText } from './constants/general';
+
 import EmojiTranslator from './components/emojiTranslator';
 
 const App = () => {
@@ -11,13 +14,13 @@ const App = () => {
     <div className="App">
       <header className="header-text">
         <p>
-          <span role="img" aria-label="on-fire">
-            🔥🔥🔥
-          </span>{' '}
-          Translate text to Emoji's !!{' '}
-          <span role="img" aria-label="on-fire">
+          {/* <span role="img" aria-label="on-fire">
             🔥🔥🔥
           </span>
+          {headerText}
+          <span role="img" aria-label="on-fire">
+            🔥🔥🔥
+          </span> */}
         </p>
       </header>
       <EmojiTranslator></EmojiTranslator>
