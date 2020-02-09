@@ -11,7 +11,7 @@ import './emojiTranslator.scss';
 import { translate, clear, warning } from '../constants/general';
 
 // Emoji Library
-const emojilib = require('emojilib');
+const allEmojis = require('emojilib').lib;
 
 const EmojiTranslator = () => {
   const [inputText, setInputText] = useState();
@@ -27,39 +27,46 @@ const EmojiTranslator = () => {
     if (inputTextbox) inputTextbox.value = warningText;
   }, [warningText]);
 
-  const allEmojis: Object = emojilib.lib;
-  const allEmojisValues: any = Object.values(allEmojis);
-
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputText(event.target.value);
   };
 
   const translateToEmoji = () => {
+    let emojisFound: any[] = [];
+    let output = '';
     if (!inputText) {
       setWarningText(warning);
       return;
     }
     const inputWords = inputText.split(' ');
 
-    inputWords.forEach(async (word: string) => {
-      if (!word || word === '') return;
-      word.toLowerCase();
-      const emojiFound = await allEmojisValues.some((emojiArray: any) => {
-        const keywords = emojiArray.keywords.join(' ');
-        return emojiArray.keywords.some((keyword: string) => {
-          if (keywords.indexOf(word) === 0) {
-            console.log(outputText);
-            const newOutputText = outputText.concat(' ', emojiArray.char);
-            setOutputText(newOutputText);
-            return true;
-          }
-          return false;
-        });
-      });
+    inputWords.forEach((word: string) => {
+      emojisFound = [];
+      getEmojisForWord(emojisFound, word);
 
-      console.log(emojiFound);
-      if (!emojiFound) setOutputText(outputText.concat(' ', word));
+      if (emojisFound) {
+        console.log(emojisFound);
+        output =
+          output +
+          ' ' +
+          emojisFound[Math.floor(Math.random() * emojisFound.length)];
+      }
     });
+
+    setOutputText(output);
+  };
+
+  const getEmojisForWord = (emojisFound: any[], originalWord: string) => {
+    let word = originalWord.toLowerCase();
+
+    if (!word || word === '') return '';
+
+    for (let emoji in allEmojis) {
+      let keywords = allEmojis[emoji].keywords;
+      if (keywords && keywords.indexOf(word) >= 0) {
+        emojisFound.push(allEmojis[emoji].char);
+      }
+    }
   };
 
   const clearTextBoxes = () => {
