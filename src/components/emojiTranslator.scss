@@ -2,3 +2,20 @@
   text-align: center;
   margin-bottom: 10px;
 }
+
+.text-output {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  margin: 10px;
+
+  &__translate {
+    margin: 5px;
+  }
+
+  &__clear {
+    margin: 5px;
+  }
+}
