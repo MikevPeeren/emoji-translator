@@ -44,12 +44,14 @@ const EmojiTranslator = () => {
       emojisFound = [];
       getEmojisForWord(emojisFound, word);
 
-      if (emojisFound) {
+      if (emojisFound.length > 0) {
         console.log(emojisFound);
         output =
           output +
           ' ' +
           emojisFound[Math.floor(Math.random() * emojisFound.length)];
+      } else {
+        output = output + word;
       }
     });
 
@@ -59,7 +61,8 @@ const EmojiTranslator = () => {
   const getEmojisForWord = (emojisFound: any[], originalWord: string) => {
     let word = originalWord.toLowerCase();
 
-    if (!word || word === '') return '';
+    if (!word || word === '' || word === 'a' || word === 'it' || word === 'is')
+      return '';
 
     for (let emoji in allEmojis) {
       let keywords = allEmojis[emoji].keywords;
