@@ -45,13 +45,12 @@ const EmojiTranslator = () => {
       getEmojisForWord(emojisFound, word);
 
       if (emojisFound.length > 0) {
-        console.log(emojisFound);
         output =
           output +
           ' ' +
           emojisFound[Math.floor(Math.random() * emojisFound.length)];
       } else {
-        output = output + word;
+        output = output + ' ' + word;
       }
     });
 
@@ -64,9 +63,42 @@ const EmojiTranslator = () => {
     if (!word || word === '' || word === 'a' || word === 'it' || word === 'is')
       return '';
 
+    let isSingular = '';
+    if (word.length > 2 && word[word.length - 1] === 's') {
+      isSingular = word.slice(0, word.length - 1);
+    }
+
+    let isPlural = word.length === 1 ? '' : word + 's';
+
+    let isVerbedSimple = '';
+    let isVerbedVowel = '';
+    let isVerbedDoubled = '';
+
+    if (word.indexOf('ing') !== -1) {
+      let verb = word.substr(0, word.length - 3);
+      isVerbedSimple = verb;
+      isVerbedVowel = verb + 'e';
+      isVerbedDoubled = verb.substr(0, verb.length - 1);
+    }
+
     for (let emoji in allEmojis) {
       let keywords = allEmojis[emoji].keywords;
-      if (keywords && keywords.indexOf(word) >= 0) {
+      if (
+        word === allEmojis[emoji].char ||
+        emoji === word ||
+        emoji === word + '_face' ||
+        emoji === isSingular ||
+        emoji === isPlural ||
+        emoji === isVerbedSimple ||
+        emoji === isVerbedVowel ||
+        emoji === isVerbedDoubled ||
+        (keywords && keywords.indexOf(word) >= 0) ||
+        (keywords && keywords.indexOf(isSingular) >= 0) ||
+        (keywords && keywords.indexOf(isPlural) >= 0) ||
+        (keywords && keywords.indexOf(isVerbedSimple) >= 0) ||
+        (keywords && keywords.indexOf(isVerbedVowel) >= 0) ||
+        (keywords && keywords.indexOf(isVerbedDoubled) >= 0)
+      ) {
         emojisFound.push(allEmojis[emoji].char);
       }
     }
