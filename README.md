@@ -27,7 +27,7 @@ the original text, and words for which there is no corresponding emoji.
 
 ## Bonus features
 
-- [ ] Developer will implement an emoji synonym feature to allow the app to
-      translate a wider variety of words to emoji.
+- [x] ~Developer will implement an emoji synonym feature to allow the app to
+      translate a wider variety of words to emoji.~
 - [ ] User can select the language the input text is entered from a dropdown
       list of languages.
