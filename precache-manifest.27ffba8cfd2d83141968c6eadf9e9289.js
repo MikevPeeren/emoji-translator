@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "984a4954fc32c841f603dc6049928e02",
+    "revision": "af12213e5d56db7383c2c3b22b1f8c2b",
     "url": "/Emoji-Translator/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Emoji-Translator/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "56d603aebce448a2f41d",
-    "url": "/Emoji-Translator/static/css/main.f65a5422.chunk.css"
+    "revision": "cc7a76ef33aa5dab15c4",
+    "url": "/Emoji-Translator/static/css/main.33106b09.chunk.css"
   },
   {
     "revision": "3e1eb55e44ffe2c430ed",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Emoji-Translator/static/js/2.f0b8562b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56d603aebce448a2f41d",
-    "url": "/Emoji-Translator/static/js/main.483fd578.chunk.js"
+    "revision": "cc7a76ef33aa5dab15c4",
+    "url": "/Emoji-Translator/static/js/main.052e19d1.chunk.js"
   },
   {
     "revision": "10ab3f158030d14931e6",

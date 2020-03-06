@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Emoji-Translator/static/css/main.f65a5422.chunk.css",
-    "main.js": "/Emoji-Translator/static/js/main.483fd578.chunk.js",
-    "main.js.map": "/Emoji-Translator/static/js/main.483fd578.chunk.js.map",
+    "main.css": "/Emoji-Translator/static/css/main.33106b09.chunk.css",
+    "main.js": "/Emoji-Translator/static/js/main.052e19d1.chunk.js",
+    "main.js.map": "/Emoji-Translator/static/js/main.052e19d1.chunk.js.map",
     "runtime-main.js": "/Emoji-Translator/static/js/runtime-main.cbba9999.js",
     "runtime-main.js.map": "/Emoji-Translator/static/js/runtime-main.cbba9999.js.map",
     "static/css/2.47e06e2e.chunk.css": "/Emoji-Translator/static/css/2.47e06e2e.chunk.css",
     "static/js/2.f0b8562b.chunk.js": "/Emoji-Translator/static/js/2.f0b8562b.chunk.js",
     "static/js/2.f0b8562b.chunk.js.map": "/Emoji-Translator/static/js/2.f0b8562b.chunk.js.map",
     "index.html": "/Emoji-Translator/index.html",
-    "precache-manifest.ac68b39b586bfb0ab95c19a067c79659.js": "/Emoji-Translator/precache-manifest.ac68b39b586bfb0ab95c19a067c79659.js",
+    "precache-manifest.27ffba8cfd2d83141968c6eadf9e9289.js": "/Emoji-Translator/precache-manifest.27ffba8cfd2d83141968c6eadf9e9289.js",
     "service-worker.js": "/Emoji-Translator/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/Emoji-Translator/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.f65a5422.chunk.css.map": "/Emoji-Translator/static/css/main.f65a5422.chunk.css.map",
+    "static/css/main.33106b09.chunk.css.map": "/Emoji-Translator/static/css/main.33106b09.chunk.css.map",
     "static/js/2.f0b8562b.chunk.js.LICENSE.txt": "/Emoji-Translator/static/js/2.f0b8562b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cbba9999.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.f0b8562b.chunk.js",
-    "static/css/main.f65a5422.chunk.css",
-    "static/js/main.483fd578.chunk.js"
+    "static/css/main.33106b09.chunk.css",
+    "static/js/main.052e19d1.chunk.js"
   ]
 }
