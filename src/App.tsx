@@ -5,7 +5,7 @@ import React from 'react';
 import './App.scss';
 
 // Constants
-// import { headerText } from './constants/general';
+import { headerText } from './constants/general';
 
 import EmojiTranslator from './components/emojiTranslator';
 
@@ -14,13 +14,13 @@ const App = () => {
     <div className="App">
       <header className="header-text">
         <p>
-          {/* <span role="img" aria-label="on-fire">
+          <span role="img" aria-label="on-fire">
             🔥🔥🔥
           </span>
           {headerText}
           <span role="img" aria-label="on-fire">
             🔥🔥🔥
-          </span> */}
+          </span>
         </p>
       </header>
       <EmojiTranslator></EmojiTranslator>

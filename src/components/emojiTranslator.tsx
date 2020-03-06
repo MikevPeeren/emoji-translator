@@ -153,7 +153,7 @@ const EmojiTranslator = () => {
       </Row>
 
       <Row>
-        <Col className="output-text" sm="12" md={{ size: 6, offset: 3 }}>
+        <Col className="text-output" sm="12" md={{ size: 6, offset: 3 }}>
           {outputText}
         </Col>
       </Row>
