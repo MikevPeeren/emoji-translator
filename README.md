@@ -1,9 +1,5 @@
 # Emoji Translator
 
-Picked up the idea from [here](https://github.com/florinpop17/app-ideas).
-
-## Introduction
-
 Emojis have become the _lingua franca_ of modern society. They are a fun and
 fast way to communicate, but an also extremely expressive mechanism for
 communicating emotions and reactions.
@@ -11,6 +7,8 @@ communicating emotions and reactions.
 The objective of the Emoji Translator app is to translate text entered by the
 user into an equivalent string of emojis, translated from one or more words in
 the original text, and words for which there is no corresponding emoji.
+
+https://mikevpeeren.github.io/Emoji-Translator/
 
 ## User Stories
 
