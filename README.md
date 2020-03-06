@@ -8,8 +8,6 @@ The objective of the Emoji Translator app is to translate text entered by the
 user into an equivalent string of emojis, translated from one or more words in
 the original text, and words for which there is no corresponding emoji.
 
-https://mikevpeeren.github.io/Emoji-Translator/
-
 ## User Stories
 
 - [x] ~User can enter a string of words, numbers, and punctuation into a text
