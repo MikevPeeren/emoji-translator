@@ -1,3 +1,5 @@
+![Build and Deploy](https://github.com/MikevPeeren/Emoji-Translator/workflows/Build%20and%20Deploy/badge.svg)
+
 # Emoji Translator
 
 Emojis have become the _lingua franca_ of modern society. They are a fun and
