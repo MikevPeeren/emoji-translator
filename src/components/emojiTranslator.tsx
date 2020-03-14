@@ -28,6 +28,7 @@ const EmojiTranslator = () => {
   }, [warningText]);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    //@ts-ignore
     setInputText(event.target.value);
   };
 
