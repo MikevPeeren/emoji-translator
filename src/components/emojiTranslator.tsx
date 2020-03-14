@@ -14,7 +14,7 @@ import { translate, clear, warning } from '../constants/general';
 const allEmojis = require('emojilib').lib;
 
 const EmojiTranslator = () => {
-  const [inputText, setInputText] = useState();
+  const [inputText, setInputText] = useState('');
   const [outputText, setOutputText] = useState('');
   const [warningText, setWarningText] = useState('');
 
