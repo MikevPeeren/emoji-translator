@@ -1,7 +1,7 @@
 {
   "name": "emoji-translator",
   "version": "1.0.0",
-  "private": true,
+  "license": "MIT",
   "homepage": "http://mikevpeeren.github.io/Emoji-Translator",
   "dependencies": {
     "@testing-library/jest-dom": "^5.1.1",
