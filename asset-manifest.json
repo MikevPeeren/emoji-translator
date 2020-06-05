@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Emoji-Translator/static/css/main.33106b09.chunk.css",
-    "main.js": "/Emoji-Translator/static/js/main.ff7ba6c5.chunk.js",
-    "main.js.map": "/Emoji-Translator/static/js/main.ff7ba6c5.chunk.js.map",
+    "main.js": "/Emoji-Translator/static/js/main.038395e2.chunk.js",
+    "main.js.map": "/Emoji-Translator/static/js/main.038395e2.chunk.js.map",
     "runtime-main.js": "/Emoji-Translator/static/js/runtime-main.cbba9999.js",
     "runtime-main.js.map": "/Emoji-Translator/static/js/runtime-main.cbba9999.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/Emoji-Translator/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.9dcb72cd.chunk.js": "/Emoji-Translator/static/js/2.9dcb72cd.chunk.js",
-    "static/js/2.9dcb72cd.chunk.js.map": "/Emoji-Translator/static/js/2.9dcb72cd.chunk.js.map",
+    "static/css/2.ace36aee.chunk.css": "/Emoji-Translator/static/css/2.ace36aee.chunk.css",
+    "static/js/2.9f5d3d5b.chunk.js": "/Emoji-Translator/static/js/2.9f5d3d5b.chunk.js",
+    "static/js/2.9f5d3d5b.chunk.js.map": "/Emoji-Translator/static/js/2.9f5d3d5b.chunk.js.map",
     "index.html": "/Emoji-Translator/index.html",
-    "precache-manifest.990f9348a6bd0a7864fbb3af4ff9a73f.js": "/Emoji-Translator/precache-manifest.990f9348a6bd0a7864fbb3af4ff9a73f.js",
+    "precache-manifest.e02bf8e59d71821a800f43f1dbcd899c.js": "/Emoji-Translator/precache-manifest.e02bf8e59d71821a800f43f1dbcd899c.js",
     "service-worker.js": "/Emoji-Translator/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/Emoji-Translator/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/2.ace36aee.chunk.css.map": "/Emoji-Translator/static/css/2.ace36aee.chunk.css.map",
     "static/css/main.33106b09.chunk.css.map": "/Emoji-Translator/static/css/main.33106b09.chunk.css.map",
-    "static/js/2.9dcb72cd.chunk.js.LICENSE.txt": "/Emoji-Translator/static/js/2.9dcb72cd.chunk.js.LICENSE.txt"
+    "static/js/2.9f5d3d5b.chunk.js.LICENSE.txt": "/Emoji-Translator/static/js/2.9f5d3d5b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cbba9999.js",
-    "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.9dcb72cd.chunk.js",
+    "static/css/2.ace36aee.chunk.css",
+    "static/js/2.9f5d3d5b.chunk.js",
     "static/css/main.33106b09.chunk.css",
-    "static/js/main.ff7ba6c5.chunk.js"
+    "static/js/main.038395e2.chunk.js"
   ]
 }
