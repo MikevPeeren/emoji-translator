@@ -4,7 +4,7 @@
   "license": "MIT",
   "homepage": "http://mikevpeeren.github.io/Emoji-Translator",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.10.0",
+    "@testing-library/jest-dom": "^5.10.1",
     "@testing-library/react": "^10.2.1",
     "@testing-library/user-event": "^11.4.2",
     "@types/jest": "^26.0.0",
