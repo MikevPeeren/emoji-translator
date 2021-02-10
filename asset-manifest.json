@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/Emoji-Translator/static/css/main.33106b09.chunk.css",
-    "main.js": "/Emoji-Translator/static/js/main.038395e2.chunk.js",
-    "main.js.map": "/Emoji-Translator/static/js/main.038395e2.chunk.js.map",
-    "runtime-main.js": "/Emoji-Translator/static/js/runtime-main.cbba9999.js",
-    "runtime-main.js.map": "/Emoji-Translator/static/js/runtime-main.cbba9999.js.map",
-    "static/css/2.ace36aee.chunk.css": "/Emoji-Translator/static/css/2.ace36aee.chunk.css",
-    "static/js/2.9f5d3d5b.chunk.js": "/Emoji-Translator/static/js/2.9f5d3d5b.chunk.js",
-    "static/js/2.9f5d3d5b.chunk.js.map": "/Emoji-Translator/static/js/2.9f5d3d5b.chunk.js.map",
+    "main.css": "/Emoji-Translator/static/css/main.c7dc9774.chunk.css",
+    "main.js": "/Emoji-Translator/static/js/main.57a2b88a.chunk.js",
+    "main.js.map": "/Emoji-Translator/static/js/main.57a2b88a.chunk.js.map",
+    "runtime-main.js": "/Emoji-Translator/static/js/runtime-main.fc471d76.js",
+    "runtime-main.js.map": "/Emoji-Translator/static/js/runtime-main.fc471d76.js.map",
+    "static/css/2.fb7dbf56.chunk.css": "/Emoji-Translator/static/css/2.fb7dbf56.chunk.css",
+    "static/js/2.33e7176b.chunk.js": "/Emoji-Translator/static/js/2.33e7176b.chunk.js",
+    "static/js/2.33e7176b.chunk.js.map": "/Emoji-Translator/static/js/2.33e7176b.chunk.js.map",
     "index.html": "/Emoji-Translator/index.html",
-    "precache-manifest.e02bf8e59d71821a800f43f1dbcd899c.js": "/Emoji-Translator/precache-manifest.e02bf8e59d71821a800f43f1dbcd899c.js",
-    "service-worker.js": "/Emoji-Translator/service-worker.js",
-    "static/css/2.ace36aee.chunk.css.map": "/Emoji-Translator/static/css/2.ace36aee.chunk.css.map",
-    "static/css/main.33106b09.chunk.css.map": "/Emoji-Translator/static/css/main.33106b09.chunk.css.map",
-    "static/js/2.9f5d3d5b.chunk.js.LICENSE.txt": "/Emoji-Translator/static/js/2.9f5d3d5b.chunk.js.LICENSE.txt"
+    "static/css/2.fb7dbf56.chunk.css.map": "/Emoji-Translator/static/css/2.fb7dbf56.chunk.css.map",
+    "static/css/main.c7dc9774.chunk.css.map": "/Emoji-Translator/static/css/main.c7dc9774.chunk.css.map",
+    "static/js/2.33e7176b.chunk.js.LICENSE.txt": "/Emoji-Translator/static/js/2.33e7176b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cbba9999.js",
-    "static/css/2.ace36aee.chunk.css",
-    "static/js/2.9f5d3d5b.chunk.js",
-    "static/css/main.33106b09.chunk.css",
-    "static/js/main.038395e2.chunk.js"
+    "static/js/runtime-main.fc471d76.js",
+    "static/css/2.fb7dbf56.chunk.css",
+    "static/js/2.33e7176b.chunk.js",
+    "static/css/main.c7dc9774.chunk.css",
+    "static/js/main.57a2b88a.chunk.js"
   ]
 }
