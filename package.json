@@ -10,7 +10,7 @@
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.26",
     "@types/react": "^17.0.1",
-    "@types/react-dom": "^17.0.0",
+    "@types/react-dom": "^17.0.1",
     "@types/reactstrap": "^8.7.2",
     "bootstrap": "^4.6.0",
     "emojilib": "^3.0.0",
