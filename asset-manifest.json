@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Emoji-Translator/static/css/main.c7dc9774.chunk.css",
-    "main.js": "/Emoji-Translator/static/js/main.57a2b88a.chunk.js",
-    "main.js.map": "/Emoji-Translator/static/js/main.57a2b88a.chunk.js.map",
+    "main.css": "/Emoji-Translator/static/css/main.06e46cd1.chunk.css",
+    "main.js": "/Emoji-Translator/static/js/main.ed10ffed.chunk.js",
+    "main.js.map": "/Emoji-Translator/static/js/main.ed10ffed.chunk.js.map",
     "runtime-main.js": "/Emoji-Translator/static/js/runtime-main.fc471d76.js",
     "runtime-main.js.map": "/Emoji-Translator/static/js/runtime-main.fc471d76.js.map",
     "static/css/2.ea5241c9.chunk.css": "/Emoji-Translator/static/css/2.ea5241c9.chunk.css",
-    "static/js/2.806e18aa.chunk.js": "/Emoji-Translator/static/js/2.806e18aa.chunk.js",
-    "static/js/2.806e18aa.chunk.js.map": "/Emoji-Translator/static/js/2.806e18aa.chunk.js.map",
+    "static/js/2.e802724c.chunk.js": "/Emoji-Translator/static/js/2.e802724c.chunk.js",
+    "static/js/2.e802724c.chunk.js.map": "/Emoji-Translator/static/js/2.e802724c.chunk.js.map",
     "index.html": "/Emoji-Translator/index.html",
     "static/css/2.ea5241c9.chunk.css.map": "/Emoji-Translator/static/css/2.ea5241c9.chunk.css.map",
-    "static/css/main.c7dc9774.chunk.css.map": "/Emoji-Translator/static/css/main.c7dc9774.chunk.css.map",
-    "static/js/2.806e18aa.chunk.js.LICENSE.txt": "/Emoji-Translator/static/js/2.806e18aa.chunk.js.LICENSE.txt"
+    "static/css/main.06e46cd1.chunk.css.map": "/Emoji-Translator/static/css/main.06e46cd1.chunk.css.map",
+    "static/js/2.e802724c.chunk.js.LICENSE.txt": "/Emoji-Translator/static/js/2.e802724c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fc471d76.js",
     "static/css/2.ea5241c9.chunk.css",
-    "static/js/2.806e18aa.chunk.js",
-    "static/css/main.c7dc9774.chunk.css",
-    "static/js/main.57a2b88a.chunk.js"
+    "static/js/2.e802724c.chunk.js",
+    "static/css/main.06e46cd1.chunk.css",
+    "static/js/main.ed10ffed.chunk.js"
   ]
 }
