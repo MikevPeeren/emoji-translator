@@ -11,7 +11,8 @@ import './emojiTranslator.scss';
 import { translate, clear, warning } from '../constants/general';
 
 // Emoji Library
-const allEmojis = require('emojilib').lib;
+const allEmojis = require('emojilib');
+const emojiData = require('unicode-emoji-json');
 
 const EmojiTranslator = () => {
   const [inputText, setInputText] = useState('');
@@ -82,10 +83,11 @@ const EmojiTranslator = () => {
       isVerbedDoubled = verb.substr(0, verb.length - 1);
     }
 
-    for (let emoji in allEmojis) {
-      let keywords = allEmojis[emoji].keywords;
+    for (let emoji in emojiData) {
+      let keywords = allEmojis[emoji];
+
       if (
-        word === allEmojis[emoji].char ||
+        allEmojis[emoji].includes(word) ||
         emoji === word ||
         emoji === word + '_face' ||
         emoji === isSingular ||
@@ -100,7 +102,10 @@ const EmojiTranslator = () => {
         (keywords && keywords.indexOf(isVerbedVowel) >= 0) ||
         (keywords && keywords.indexOf(isVerbedDoubled) >= 0)
       ) {
-        emojisFound.push(allEmojis[emoji].char);
+        console.log('push');
+        console.log(keywords);
+        console.log(emoji);
+        emojisFound.push(emoji);
       }
     }
   };
@@ -124,7 +129,7 @@ const EmojiTranslator = () => {
             type="textarea"
             name="text"
             id="translateText"
-            onChange={event => {
+            onChange={(event) => {
               handleChange(event);
             }}
           />
@@ -135,7 +140,7 @@ const EmojiTranslator = () => {
           <Button
             color="primary"
             className="buttons__translate"
-            onClick={event => {
+            onClick={(event) => {
               translateToEmoji();
             }}
           >
@@ -144,7 +149,7 @@ const EmojiTranslator = () => {
           <Button
             color="primary"
             className="buttons__clear"
-            onClick={event => {
+            onClick={(event) => {
               clearTextBoxes();
             }}
           >
