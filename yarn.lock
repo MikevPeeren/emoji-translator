@@ -4687,10 +4687,10 @@ emoji-regex@^9.2.2:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
-emojilib@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/emojilib/-/emojilib-3.0.5.tgz#85900495d7b1cdb0db73746dee344750feea6919"
-  integrity sha512-bJu+DlD0r3m8EOMbo+YMFP0O0OPIDSO+5wuaRTFQx9PMMmt2ucnExcP8nRixKemUEZbmasjfYIRYzLo3VnQLxA==
+emojilib@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/emojilib/-/emojilib-3.0.6.tgz#09cb2d3bbf5df832a3842bbd0fc8a713db70fd54"
+  integrity sha512-/fjPG5+oTHzHDQhXwovBrggTNhOB6r2Ms1+e9ZX84kYov/5YK1b9Jk4f6uho8C9CmWkQzjTJXrphNkP27+7TqQ==
 
 emojis-list@^3.0.0:
   version "3.0.0"
