@@ -13,7 +13,7 @@
     "@types/react-dom": "^18.0.7",
     "@types/reactstrap": "^8.7.2",
     "bootstrap": "^4.6.0",
-    "emojilib": "^3.0.7",
+    "emojilib": "^3.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
